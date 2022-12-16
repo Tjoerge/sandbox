@@ -39,6 +39,178 @@ Children:
     Type: BaseDataVariableType
     DataType: Color
     Value: "#f74949"
+  - Name: InteractiveColor
+    Id: g=8ec8aae5e90afaaeef26d3c04ed201bc
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#e4e4e4"
+- Name: FriendlyDark
+  Id: g=e3851a71f2c6d091f65c7ca52eb3ad6a
+  Type: StyleSheet
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: ButtonStyle
+    Type: ButtonStyle
+  - Name: ButtonAccentStyle
+    Type: ButtonStyle
+  - Name: DataInputStyle
+    Type: DataInputStyle
+    Children:
+    - Name: PlaceHolderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#6e7f91"
+  - Name: SwitchStyle
+    Type: SwitchStyle
+    Children:
+    - Name: HandleColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#ffffff"
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#223748"
+    - Name: HandleBorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#cfcfcf"
+    - Name: Radius
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: -1.0
+  - Name: GaugeStyle
+    Type: GaugeStyle
+    Children:
+    - Name: HandleColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#65b2ef"
+    - Name: Radius
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: -1.0
+    - Name: HandleSize
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: 23.0
+  - Name: NavigationPanelStyle
+    Type: NavigationPanelStyle
+    Children:
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#1a8cfe"
+  - Name: ChartStyle
+    Type: ChartStyle
+    Children:
+    - Name: GridColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#304155"
+    - Name: AxisColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#304155"
+  - Name: DataListStyle
+    Type: DataListStyle
+    Children:
+    - Name: BorderWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: 1.0
+    - Name: HorizontalLineColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#151e27"
+    - Name: VerticalLineColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#151e27"
+    - Name: HeaderBorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#65b2ef"
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#00000000"
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#212d3b"
+    - Name: HeaderTextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#65b2ef"
+  - Name: ToolTipStyle
+    Type: ToolTipStyle
+    Children:
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#243140"
+  - Name: ScrollBarStyle
+    Type: ScrollBarStyle
+    Children:
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#1b2733"
+  - Name: WindowColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#151e27"
+  - Name: AccentColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#65b2ef"
+  - Name: InteractiveBackgroundColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#212d3b"
+  - Name: InteractiveColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#28394a"
+  - Name: InteractiveColorGradientPercent
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: TextColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#ffffff"
+  - Name: BorderWidth
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 0.0
+  - Name: DataInputBackgroundColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#212d3b"
+  - Name: DataInputTextColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#ffffff"
+  - Name: FontPixelSize
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 10.0
+  - Name: BorderColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#3b5067"
+  - Name: AccordionStyle
+    Type: AccordionStyle
+  - Name: Radius
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 0.0
+  - Name: PieChartStyle
+    Type: PieChartStyle
+  - Name: HistogramChartStyle
+    Type: HistogramChartStyle
 - Name: NativePresentationEngine
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent
@@ -57,6 +229,7 @@ Children:
       DataType: NodeId
       Value: {"Id":12,"Namespace":3}
   - Name: StyleSheet
+    Id: g=15722b3dc214b9ab890aec21b07df33a
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":2,"Id":"4c9daeeacac45e8d69acb7f8a071df72","Namespace":7}
@@ -90,9 +263,85 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 600.0
-  - Name: Panel1
-    Type: Panel
+  - Name: NavigationPanel1
+    Type: NavigationPanel
     Children:
+    - Name: Panels
+      Type: BaseObjectType
+      Children:
+      - Name: Panel1
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"04daa3b20af9ed7d9a560177cffb8596","Namespace":7}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+        - Name: ImagePath
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=7;%PROJECTDIR%/res/Home3_shape.svg"
+      - Name: Panel2
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"M Models"}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"2756ec871f71ed397adf8ed99e95670e","Namespace":7}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+        - Name: ImagePath
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=7;%PROJECTDIR%/res/EnableMotorIcon_Icon_border.svg"
+      - Name: Panel3
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"73efbeee127cd91825d819864c2a5b71","Namespace":7}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+        - Name: ImagePath
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=7;%PROJECTDIR%/res/DataLogIcon_Icon_border.svg"
+    - Name: CurrentPanel
+      Type: NodePointer
+      DataType: NodeId
+      AccessLevel: Read
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":6,"Namespace":3}
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -107,11 +356,21 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 140.0
+      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 80.0
+      Value: 0.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
 - File: Templates/Templates.yaml
 - File: Displays/Displays.yaml

@@ -1,2 +1,101 @@
 Name: Converters
 Type: FolderType
+Children:
+- Name: DynamicColorBackground
+  Id: g=e4450b8307e91f9c346990093e147cf4
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"4c9daeeacac45e8d69acb7f8a071df72","Namespace":7}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#fffffff0"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"e3851a71f2c6d091f65c7ca52eb3ad6a","Namespace":7}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#121212f0"
+- Name: DynamicColorBorders
+  Id: g=48df843feae3d68246f58c0c595d3d8b
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"4c9daeeacac45e8d69acb7f8a071df72","Namespace":7}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00000000"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          ModellingRule: None
+          Value: "{NodeId:ns=7;g=8ec8aae5-e90a-faae-ef26-d3c04ed201bc}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: None
+            Value: 2
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"e3851a71f2c6d091f65c7ca52eb3ad6a","Namespace":7}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00000000"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          ModellingRule: None
+          Value: "/Objects/sandbox/UI/DefaultStyleSheet/InteractiveColor"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: None
+            Value: 2

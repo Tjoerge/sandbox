@@ -1,0 +1,29 @@
+Name: M1104
+Id: g=49a3279eefc4489afafffa0cfc8b486d
+Type: FolderType
+Children:
+- Name: Start
+  Id: g=d9ba551ff930c0240d683d9eac99af31
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Name
+  Id: g=d6473a057b5a5a58993ce69b39141210
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "M1104"
+- Name: Stop
+  Id: g=dabbee58198158980f61ec0808230548
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: ActualSpeed
+  Id: g=1f17a15546f18b2c5da3e75676f2e3e0
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: SetSpeed
+  Id: g=039ff20e0b5a143226ddc59307ad603b
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

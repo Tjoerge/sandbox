@@ -1,0 +1,4 @@
+Name: Datalog
+Type: FolderType
+Children:
+- File: Temperatur/Temperatur.yaml
