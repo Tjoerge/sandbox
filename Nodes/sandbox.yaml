@@ -15,7 +15,7 @@ Children:
   - Name: EnforcePasswordHistory
     Type: PropertyType
     DataType: Byte
-    Value: 1
+    Value: 0
   - Name: MinimumPasswordAge
     Type: PropertyType
     DataType: UInt16

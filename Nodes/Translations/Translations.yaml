@@ -9,8 +9,35 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [1,2],
+    "Dimensions": [28,2],
     "Body": [
-     "","en-US"
+     "","en-US",
+     "ChangeUserFormOutputSuccessMessage","Change User successful",
+     "ChangeUserFormOutputErrorMessage","Authentication failed",
+     "ChangePasswordFormSuccessMessage","Password changed successfully",
+     "ChangeUserFormOutputPasswordExpired","Password expired",
+     "ChangePasswordFormWrongOldPasswordMessage","Wrong old password",
+     "ChangePasswordFormPasswordAlreadyUsedMessage","Password already used",
+     "ChangePasswordFormPasswordChangedTooRecentlyMessage","Password changed too recently",
+     "ChangePasswordFormPasswordTooShortMessage","Password too short",
+     "ChangePasswordFormUserNotFoundMessage","User not found",
+     "ChangePasswordFormUnsupportedOperationMessage","Unsupported operation",
+     "ChangePasswordFormPasswordMismatchMessage","Passwords do not match",
+     "Groups","Groups",
+     "PasswordChangedTooRecently","Password changed too recently",
+     "Locale:","Locale:",
+     "Create","Create",
+     "CannotCreateUserWithEmptyUsername","Cannot create user with empty username",
+     "Delete","Delete",
+     "Apply","Apply",
+     "Cancel","Cancel",
+     "Name","Name",
+     "UnableToGetUsers","Unable to get users",
+     "UserNotFound","User not found",
+     "PasswordAlreadyUsed","Password already used in the past",
+     "PasswordTooShort","Password too short",
+     "UnsupportedOperation","Unsupported operation",
+     "ChangesAppliedSuccessfully","Changes applied successfully",
+     "UsernameAlreadyExists","Username already exists"
     ]
    }

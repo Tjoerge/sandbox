@@ -1,3 +1,110 @@
 Name: Users
 Id: g=0de798e6e9e22dd4aa2de84524943563
 Type: FolderType
+Children:
+- Name: Tino
+  Id: g=7e06cc3043cd5e3decf177f74fd42095
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=d986aa7a7ce92fdc87f93e58afafda34
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=ee6e794c6d4c6a266d5d40abdda22495
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[216,11,79,129,140,134,222,206,157,60,22,43,157,121,60,139,247,83,106,117,211,71,27,250,37,179,60,146,14,58,39,59],"Salt":[118,254,204,78,130,105,229,229,159,235,168,96,235,169,246,107,125,247,8,98,146,196,81,66,145,20,255,7,49,14,215,19]}}
+    - Name: ChangeTimestamp
+      Id: g=95d93e5527a2a75e9850ed0a7df67d8b
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2022-12-20T09:12:00.2618919"
+    - Name: History
+      Id: g=8ce65da5fb941c82f6b6c5deb166ea9a
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[216,11,79,129,140,134,222,206,157,60,22,43,157,121,60,139,247,83,106,117,211,71,27,250,37,179,60,146,14,58,39,59],"Salt":[118,254,204,78,130,105,229,229,159,235,168,96,235,169,246,107,125,247,8,98,146,196,81,66,145,20,255,7,49,14,215,19]}}]
+  - Name: LocaleId
+    Id: g=352afd9f18dcb9b1c946cdea4b579b60
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=bbd2ae2283fbf51b1744e1309ec3ce3f
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=47cd3f6392b49134fd8c7ca30e1d7445
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 2
+  - Class: Reference
+    Type: HasGroup
+    Target: g=65a9271b6648af34830734cb71a73393
+- Name: Robert
+  Id: g=a421fe15e83fe7bf8d8121f657087f7d
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=a91db2baeb8d5a25d0cea1e6a4a11d5a
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=610806585879f491498a96282106a6b9
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[180,208,68,203,122,143,223,211,98,251,171,128,158,35,158,88,243,194,223,162,176,243,249,219,55,93,68,179,93,228,161,107],"Salt":[42,28,244,252,193,103,61,157,7,176,62,148,134,102,113,241,26,194,67,15,75,216,10,92,63,248,235,36,245,207,161,49]}}
+    - Name: ChangeTimestamp
+      Id: g=4d9273bf3f48e3c7e00eb579ac3af548
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2022-12-20T09:12:34.1441725"
+    - Name: History
+      Id: g=0fa220840706e73deba93649c0a77262
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[180,208,68,203,122,143,223,211,98,251,171,128,158,35,158,88,243,194,223,162,176,243,249,219,55,93,68,179,93,228,161,107],"Salt":[42,28,244,252,193,103,61,157,7,176,62,148,134,102,113,241,26,194,67,15,75,216,10,92,63,248,235,36,245,207,161,49]}}]
+  - Name: LocaleId
+    Id: g=19a0b87bddb1787f0e066acf2b69859c
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=086db9882682c933a6a7bc3d3ddd9a71
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=17a590049b3ea7227953a6e2814a00aa
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 2
+  - Class: Reference
+    Type: HasGroup
+    Target: g=8e54432481f54cd399868080d1042ef8

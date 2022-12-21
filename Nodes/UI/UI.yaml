@@ -7,6 +7,11 @@ Children:
   Children:
   - Name: ButtonStyle
     Type: ButtonStyle
+    Children:
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#f74949"
   - Name: ButtonAccentStyle
     Type: ButtonStyle
   - Name: DataInputStyle
@@ -332,6 +337,54 @@ Children:
           DataType: ResourceUri
           ModellingRule: Optional
           Value: "ns=7;%PROJECTDIR%/res/DataLogIcon_Icon_border.svg"
+      - Name: Panel4
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"d1eddd534b0094481cfd8d569732659e","Namespace":7}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel5
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"77d7d211fdae12e6080e3ab0195c989d","Namespace":7}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel6
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"ca9750320454875839c8b7ae19b85ae3","Namespace":7}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId

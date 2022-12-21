@@ -34,7 +34,7 @@ Children:
   Type: BaseObjectType
   Children:
   - Name: Motor
-    Id: g=c6ba0e120d2337e735e5f202272d41d6
+    Id: g=368977c0c006911bd1ac845fb9cebfad
     Supertype: TagStructure
     Children:
     - Name: CmdOffOn
@@ -46,6 +46,15 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "CmdOffOn"
+    - Name: Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Name"
     - Name: Power
       Type: RAEtherNetIPTag
       DataType: Float
@@ -83,7 +92,7 @@ Children:
         DataType: String
         Value: "Status"
   - Name: Tank
-    Id: g=8bb5436bd19859a471299b13294150c0
+    Id: g=885323c83f91aac59620b09956587531
     Supertype: TagStructure
     Children:
     - Name: Level

@@ -23,7 +23,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: None
-        Value: "#fffffff0"
+        Value: "#d3d3d3"
     - Name: Pair1
       Type: ValueMapPair
       ModellingRule: None

@@ -137,6 +137,7 @@ Children:
         DataType: String
         Value: "Tank1.ValveOutStatus"
   - Name: M1102
+    Id: g=735016ba1cd5245603b61bb074a293ed
     Type: Motor
     Children:
     - Name: CmdOffOn
@@ -148,6 +149,15 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "M1102.CmdOffOn"
+    - Name: Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "M1102.Name"
     - Name: Power
       Type: RAEtherNetIPTag
       DataType: Float
@@ -196,6 +206,15 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "M1103.CmdOffOn"
+    - Name: Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "M1103.Name"
     - Name: Power
       Type: RAEtherNetIPTag
       DataType: Float
