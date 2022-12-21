@@ -3,3 +3,5 @@ Type: FolderType
 Children:
 - File: Machine/Machine.yaml
 - File: Datalog/Datalog.yaml
+- File: Types/Types.yaml
+- File: Motor_A1/Motor_A1.yaml

@@ -1,0 +1,103 @@
+Name: Motor_A1
+Id: g=8eea6bb84d4563b6af21a4ce1a5bf99f
+Type: FolderType
+Children:
+- Name: Motor_1
+  Type: MotorType_A1_Type
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 11
+- Name: Motor_2
+  Type: MotorType_A1_Type
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 22
+- Name: Motor_3
+  Type: MotorType_A1_Type
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 3
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 33
+- Name: Motor_4
+  Type: MotorType_A1_Type
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Motor_5
+  Type: MotorType_A1_Type
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Motor_6
+  Type: MotorType_A1_Type
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Motor_7
+  Type: MotorType_A1_Type
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Motor_8
+  Type: MotorType_A1_Type
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Motor_9
+  Type: MotorType_A1_Type
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
